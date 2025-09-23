@@ -1,10 +1,10 @@
 # my coding notebook
 
-##table contents
--[flutter notes]_(#day-1)
--[notes](notes)
--[practice](#practice)
-[code definitions](#code definitions)
+## table contents
+- [flutter notes](#day-1)
+  - [notes](notes)
+  - [practice](#practice)
+- [code definitions](#code-definitions)
 
 
 
@@ -19,9 +19,7 @@
 ## Flutter Definitions
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
-
 |------|----------------------------|----------------|-------------------|-------------|
-
 |      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 |      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
 |      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
@@ -61,13 +59,11 @@
 
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
-
 |------|------------|--------------------------|-------------------|-------------|
-
-|      | A named container used to store a value that may change. | `var x = 5;` |  |  |
-|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-|      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|   Variable   | A named container used to store a value that may change. | `var x = 5;` |  |  |
+|  constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+|   data type   | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+|   string   | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 |      | Whole number values. | `int age = 16;` |  |  |
 |      | Number values with decimals. | `double age = 16.2;` |  |  |
 |      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
